@@ -1,4 +1,5 @@
 /* Universal Selector */
+
 * {
   margin: 0;
   padding: 0;
@@ -38,3 +39,13 @@ nav a {
 }
 
 /* Class Selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Element Selector */
+
+
+/* Class Selector */
+>>>>>>> 37b47814fa972495fe4c00a0f231f8004aee323b
