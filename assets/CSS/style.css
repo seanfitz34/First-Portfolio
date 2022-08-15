@@ -1,4 +1,45 @@
 /* Universal Selector */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Element Selector */
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  background-color: grey;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #000000;
+  color: #fff;
+}
+h1 {
+  font-size: 200%;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  list-style: none;
+}
+nav a {
+  background-color: unset;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-size: 125%;
+}
+
+/* Class Selector */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,3 +48,4 @@
 
 
 /* Class Selector */
+>>>>>>> 37b47814fa972495fe4c00a0f231f8004aee323b
