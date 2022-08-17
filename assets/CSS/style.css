@@ -1,69 +1,53 @@
-/* Universal Selector */
-
+/* Universal Seclector */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-/* Element Selector */
+main {
+  flex-wrap: wrap;
+}
 body {
-  display: flex;
-  flex-direction: column;
-  line-height: 2;
-  background-color: rgb(236, 236, 236);
+  background-color: #d9dcd6;
 }
-
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
-  background-color: #1d1c1c;
-  color: #fff;
-  font-size: smaller;
-}
-h1 {
-  font-size: 200%;
-  font-family: "Lato", Helvetica, sans-serif;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  min-width: 300px;
-  list-style: none;
-}
-nav a {
-  background-color: unset;
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
-  font-size: 125%;
-}
-
-/* Class Selector */
-.tabs {
-  text-decoration: underline;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-.float-left {
-  float: left;
-  justify-content: space-between;
-  text-size-adjust: 100%;
-  line-height: 400px;
-}
-.float-center {
-  text-align: center;
-}
-.raider {
-  display: flex;
-  object-fit: cover;
-  object-position: 50% 50%;
-  width: 100%;
-  height: 550px;
   position: relative;
-  top: 100px;
+}
+.header {
+  background-color: #2a607c;
+  padding-left: 1%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: white;
+}
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+.header nav ul {
+  list-style-type: none;
+  color: white;
+}
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  color: white;
+}
+.content {
+}
+.content .intro {
+  padding: 70px;
+}
+
+.pic1 {
+  max-width: 300px;
 }
