@@ -5,13 +5,12 @@
   padding: 0;
 }
 main {
-  flex-wrap: wrap;
 }
 body {
   background-color: #d9dcd6;
 }
-header {
-  position: relative;
+section {
+  margin-bottom: 2em;
 }
 .header {
   background-color: #2a607c;
@@ -42,12 +41,85 @@ header {
   margin-left: 25px;
   color: white;
 }
-.content {
-}
 .content .intro {
   padding: 70px;
 }
+.section-title-intro {
+  margin-left: 24em;
+}
+.paragraph {
+  margin-left: 38em;
+}
 
-.pic1 {
-  max-width: 300px;
+.project-pic1 {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 60%; */
+}
+/* .PosRel{
+  position: relative; */
+/* } */
+.selfPic {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project-pic {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project-pic1 {
+}
+.project-pic2 {
+  width: 300px;
+  display: block;
+  margin-left: 16em;
+}
+.project-pic3 {
+  width: 300px;
+  display: block;
+  margin-left: 35em;
+  margin-bottom: 35 em;
+  position: absolute;
+  bottom: -52.5em;
+}
+.project-pic4 {
+  width: 300px;
+  display: block;
+  margin-left: 50em;
+  margin-right: auto;
+  position: absolute;
+  bottom: -52.5em;
+}
+
+/* margin-left: auto;
+  margin-right: auto; */
+
+.intro {
+}
+
+.section-title {
+  text-align: center;
+}
+
+.About {
+  margin-left: 20em;
+  margin-right: 20em;
+}
+.messages {
+  margin-top: 2em;
+  margin-left: 20em;
+}
+.email {
+  margin-top: -1.1em;
+  margin-left: 37em;
+}
+.Linkedin {
+  margin-top: -1.15em;
+  margin-left: 54em;
 }
